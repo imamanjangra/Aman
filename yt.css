@@ -152,21 +152,19 @@ margin-left: 10px;
 }
 /* contant */
 .contant {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-  gap: 20px;
-  justify-items: center; 
-  align-items: center; 
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); /* Automatic grid sizing */
+gap: 20px; /* Space between boxes */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
   padding: 20px;
 }
 .y-c{
-      height: 15vh;
-      width: 23vw;
+      height: 18vh;
+      width: 22vw;
       background-color: #333;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
-
-
 }
 .y-info{
       height: 7vh;
