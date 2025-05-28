@@ -153,10 +153,10 @@ margin-left: 10px;
 /* contant */
 .contant {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); /* Automatic grid sizing */
-  gap: 20px; /* Space between boxes */
-  justify-items: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+  gap: 20px;
+  justify-items: center; 
+  align-items: center; 
   padding: 20px;
 }
 .y-c{
